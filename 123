@@ -1,0 +1,1000 @@
+  117  git commit -m "first commit"
+  118  git remote add origin https://github.com/Cedar11/python.git
+  119  git push -u origin master
+  120  git branch
+  121  ll
+  122  vi README.md 
+  123  git config credential.helper store
+  124  git commit -m "first commit"
+  125  ll
+  126  git status
+  127  git commit -a -m "first commit"
+  128  git push
+  129  history
+  130  ll
+  131  vi README.md 
+  132  git push
+  133  git commit -a -m "first commit"
+  134  git push
+  135  ll
+  136  pwd
+  137  ls -l
+  138  history
+  139  sudo su -
+  140  sudo su -
+  141  ll
+  142  cd github/
+  143  ll
+  144  git clone https://github.com/trevorqhl/trevorqhl.github.io.git
+  145  ll
+  146  cd trevorqhl.github.io/
+  147  ll
+  148  gem 
+  149  sudo su -
+  150  jekyll
+  151  sudo su -
+  152  ll
+  153  cd ..
+  154  ll
+  155  jekyll new blog
+  156  ll
+  157  cd blog/
+  158  ll
+  159  bundle exec jekyll serve
+  160  ll
+  161  vi index.markdown 
+  162  ll
+  163  cd ..
+  164  ll
+  165  cd blog/
+  166  mv * ../trevorqhl.github.io/
+  167  ll
+  168  ls -artl
+  169  find
+  170  ls -artl
+  171  cat .gitignore 
+  172  mv .gitignore .jekyll-cache ../trevorqhl.github.io/
+  173  ll
+  174  ls -artl
+  175  cd ..
+  176  ll
+  177  rm blog/
+  178  rmdir blog/
+  179  ll
+  180  cd trevorqhl.github.io/
+  181  ll
+  182  bundle exec jekyll serve
+  183  ll
+  184  rm index.html 
+  185  ll
+  186  vi README.md 
+  187  bundle exec jekyll serve
+  188  ll
+  189  git status
+  190  git add *
+  191  git status
+  192  cat .gitignore 
+  193  ll
+  194  git commit -a -m "website"
+  195  git push
+  196  bundle exec jekyll serve
+  197  ll
+  198  vi _config.yml 
+  199  git push
+  200  history | grep store
+  201  git config credential.helper store
+  202  git push
+  203  git commit -a -m "test"
+  204  git push
+  205  ll
+  206  cd _posts/
+  207  ll
+  208  vi 2020-04-18-welcome-to-jekyll.markdown 
+  209  ll
+  210  ll ll
+  211  ll
+  212  cp 2020-04-18-welcome-to-jekyll.markdown 2020-04-18-linux.markdown 
+  213  ll
+  214  vi 2020-04-18-linux.markdown
+  215  mv 2020-04-18-linux.markdown 2020-04-18-jekyll.markdown 
+  216  vi 2020-04-18-jekyll.markdown 
+  217  history
+  218  vi 2020-04-18-jekyll.markdown 
+  219  cd ..
+  220  ll
+  221  git status
+  222  git add _posts/2020-04-18-jekyll.markdown
+  223  git commit -a -m "fist blog"
+  224  git push
+  225  history
+  226  bundle exec jekyll serve
+  227  ll
+  228  cd _posts/
+  229  ll
+  230  vi 2020-04-18-jekyll.markdown 
+  231  git push
+  232  git commit -a -m "fist blog"
+  233  git push
+  234  git status
+  235  hisotry
+  236  history
+  237  history | grep clone
+  238  history | grep git
+  239  ll
+  240  pwd
+  241  cd ..
+  242  ll
+  243  cd ..
+  244  ll
+  245  jekyll new blog
+  246  ll
+  247  cd blog/
+  248  ll
+  249  cd _posts/
+  250  ll
+  251  pwd
+  252  cp ../../trevorqhl.github.io/_posts/* .
+  253  ll
+  254  rm 2020-04-18-welcome-to-jekyll.markdown
+  255  ll
+  256  cd ..
+  257  ll
+  258  bundle exec jekyll serve
+  259  vi _posts/2020-04-18-tee.md 
+  260  bundle exec jekyll serve
+  261  vi _posts/2020-04-18-tee.md 
+  262  vi _posts/2020-04-18-windows.md 
+  263  vi _posts/2020-04-18-tee.md 
+  264  bundle exec jekyll serve
+  265  vi _posts/2020-04-18-tee.md 
+  266  vi _posts/2020-04-18-windows.md 
+  267  vi _posts/2020-04-18-tee.md 
+  268  vi _posts/2020-04-18-windows.md 
+  269  vi _posts/2020-04-18-tee.md 
+  270  vi _posts/2020-04-18-windows.md 
+  271  bundle exec jekyll serve
+  272  cd ../trevorqhl.github.io/
+  273  bundle exec jekyll serve
+  274  cd 0
+  275  cd -
+  276  ll
+  277  vi _posts/2020-04-18-windows.md 
+  278  vi _posts/2020-04-18-tee.md 
+  279  bundle exec jekyll serve
+  280  vi _posts/2020-04-18-tee.md 
+  281  pwd
+  282  cp  _posts/2020-04-18-tee.md  ../trevorqhl.github.io/_posts/
+  283  ll
+  284  pwd
+  285  ll
+  286  git init
+  287  git remote add origin https://github.com/trevorqhl/blog.git
+  288  git push -u origin master
+  289  git commit -m "first commit"
+  290  git add .
+  291  git commit -m "first commit"
+  292  git push -u origin master
+  293  ll
+  294  vi _config.yml 
+  295  git status
+  296  git commit -m "update blog"
+  297  git commit -a -m "update blog"
+  298  git push
+  299  ll
+  300  vi _config.yml 
+  301  git status
+  302  vi _config.yml 
+  303  vi index.md 
+  304  vi _config.yml 
+  305  git status
+  306  git commit -a -m "update blog"
+  307  git push
+  308  ll
+  309  cd _posts/
+  310  ll
+  311  pwd
+  312  cp * ../../trevorqhl.github.io/_posts/
+  313  ll
+  314  cd ..
+  315  ll
+  316  cd ..
+  317  ll
+  318  cd trevorqhl.github.io/
+  319  ll
+  320  mv about.markdown  about.md
+  321  mv index.markdown  index.md
+  322  vi _config.yml 
+  323  ll
+  324  git status
+  325  git add .
+  326  git status
+  327  git commit -a -m "update blog"
+  328  git push
+  329  ll
+  330  vi _config.yml 
+  331  cd
+  332  cd .ssh/
+  333  ll
+  334  cd
+  335  ll
+  336  pd
+  337  pwd
+  338  ll
+  339  cd
+  340  ssh-keygen -t rsa
+  341  ll
+  342  ll
+  343  cd _posts/
+  344  ll
+  345  mv how-to-to-git.markdown 2020-04-18-how-to-to-git.markdown
+  346  ll
+  347  vi 2020-04-18-how-to-to-git.markdown 
+  348  ll
+  349  cd ..
+  350  ll
+  351  vi _config.yml 
+  352  ll
+  353  git status
+  354  git add _posts/2020-04-18-how-to-to-git.markdown
+  355  git commit -a -m "blog update"
+  356  git push
+  357  bundle exec jekyll serve
+  358  ll
+  359  cd ../blog/
+  360  bundle exec jekyll serve
+  361  ll
+  362  cd _posts/
+  363  ll
+  364  cd ..
+  365  bundle exec jekyll serve
+  366  ll
+  367  mv about.markdown  about.md
+  368  mv index.markdown index.md
+  369  ll
+  370  bundle exec jekyll serve
+  371  ll
+  372  cp ../trevorqhl.github.io/_config.yml  .
+  373  bundle exec jekyll serve
+  374  ll
+  375  vi _config.yml 
+  376  bundle exec jekyll serve
+  377  ll
+  378  cd ..
+  379  ll
+  380  cd trevorqhl.github.io/
+  381  ll
+  382  cd _posts/
+  383  ll
+  384  cd ..
+  385  cd images/
+  386  ll
+  387  mv ssh_keys_social.png  ssh_keys.png 
+  388  ll
+  389  cd ..
+  390  ll
+  391  cd _posts/
+  392  ll
+  393  cp 2020-04-18-jekyll.md 2020-04-18-ssh_keys.md
+  394  ll
+  395  pwd
+  396  vi 2020-04-18-ssh_keys.md
+  397  cd
+  398  ll
+  399  pwd
+  400  ls ~
+  401  ls ~.ssh
+  402  ls ~/.ssh
+  403  ls ~/.ssh/id_rsa.pub 
+  404  cat ~/.ssh/id_rsa.pub 
+  405  vi 2020-04-18-ssh_keys.md
+  406  cd -
+  407  vi 2020-04-18-ssh_keys.md
+  408  ll
+  409  vi 2020-04-18-git.md
+  410  vi 2020-04-18-ssh_keys.md
+  411  vi 2020-04-18-git.md
+  412  vi 2020-04-18-ssh_keys.md
+  413  ll
+  414  vi 2020-04-18-ssh_keys.md
+  415  git remote -v
+  416  vi 2020-04-18-ssh_keys.md
+  417  git remote -v
+  418  git remote set-url origin ssh://git@github.com:trevorqhl/trevorqhl.github.io.git
+  419  git remote -v
+  420  git status
+  421  git add .
+  422  git commit -a -m "update blog"
+  423  git push
+  424  git remote -v
+  425  ping github.com
+  426  git remote -v
+  427  git push
+  428  https://github.com/trevorqhl/trevorqhl.github.io.git 
+  429  git remote set-url origin git@github.com:trevorqhl/trevorqhl.github.io.git
+  430  git push
+  431  ll
+  432  vi 2020-04-18-ssh_keys.md
+  433  git commit -a -m "update blog"
+  434  git push
+  435  git status
+  436  git add .
+  437  git commit -a -m "update blog"
+  438  git status
+  439  cd ..
+  440  ll
+  441  git add .
+  442  git commit -a -m "update blog"
+  443  git push
+  444  git status
+  445  ll
+  446  vi _posts/2020-04-18-ssh_keys.md 
+  447  git commit -a -m "update blog"
+  448  git push
+  449  ll
+  450  ll images/
+  451  vi _posts/2020-04-18-jekyll.md 
+  452  vi _posts/2020-04-18-ssh_keys.md 
+  453  vi _posts/2020-04-18-jekyll.md 
+  454  bundle exec jekyll serve
+  455  pwd
+  456  ll
+  457  bundle exec jekyll serve
+  458  bundle exec jekyll serve --trace
+  459  vi _posts/2020-04-18-salt.md 
+  460  ll images/
+  461  vi _posts/2020-04-18-salt.md 
+  462  ll images/
+  463  vi _posts/2020-04-18-salt.md 
+  464  vi _posts/2020-04-18-git.md 
+  465  vi _posts/2020-04-18-ssh_keys.md 
+  466  ll images/
+  467  cd images/
+  468  ll
+  469  rm upgrading-powershell-5-1---upgrade-powershell.webp 
+  470  cd ..
+  471  vi _posts/2020-04-18-windows.md 
+  472  ll images/
+  473  ll
+  474  vi _posts/2020-04-18-tee.md 
+  475  vi _posts/2020-04-18-windows.md 
+  476  vi _posts/2020-04-18-tee.md 
+  477  cd ..
+  478  ll
+  479  cd -
+  480  ll
+  481  vi about.md 
+  482  ll
+  483  git status
+  484  git add .
+  485  git commit -a -m "update blog"
+  486  git push
+  487  git status
+  488  vi _posts/2020-04-18-jekyll.md 
+  489  git commit -a -m "update blog"
+  490  git push
+  491  git status
+  492  cd blo
+  493  ll
+  494  cd github/
+  495  ll
+  496  cd trevorqhl.github.io/
+  497  ll
+  498  git pull
+  499  ll
+  500  history
+  501  bundle exec jekyll serve
+  502  ll
+  503  cd _posts/
+  504  ll
+  505  mv 2020-04-18-jekyll.markdown 2020-04-18-jekyll.md
+  506  ll
+  507  mv 2020-04-18-how-to-to-git.markdown 2020-04-18-git.markdown
+  508  mv 2020-04-18-git.markdown 2020-04-18-git.md
+  509  ll
+  510  vi 2020-04-18-git.md
+  511  ll
+  512  vi 2020-04-18-jekyll.md
+  513  ll
+  514  vi 2020-04-18-jekyll.md
+  515  vi 2020-04-18-git.md
+  516  vi 2020-04-18-jekyll.md
+  517  ll
+  518  mv 2020-04-18-welcome-to-jekyll.markdown 2020-04-18-windows.md
+  519  ll
+  520  vi 2020-04-18-windows.md
+  521  vi 2020-04-18-jekyll.md
+  522  vi 2020-04-18-windows.md
+  523  vi 2020-04-18-jekyll.md
+  524  vi 2020-04-18-windows.md
+  525  ll
+  526  cp 2020-04-18-git.md 2020-04-18-salt.md
+  527  ll
+  528  vi 2020-04-18-salt.md
+  529  cp 2020-04-18-git.md 2020-04-18-linux.md
+  530  vi 2020-04-18-linux.md 
+  531  ll
+  532  vi 2020-04-18-salt.md
+  533  ll
+  534  vi 2020-04-18-git.md
+  535  ll
+  536  vi 2020-04-18-linux.md
+  537  vi 2020-04-18-git.md
+  538  vi 2020-04-18-linux.md
+  539  ;;
+  540  ll
+  541  mv 2020-04-18-linux.md 2020-04-18-tee.md
+  542  ll
+  543  mv 2020-04-18-jekyll.md 2020-04-10-jekyll.md
+  544  vi 2020-04-10-jekyll.md
+  545  vi 2020-04-18-git.md
+  546  grep 04-18 *
+  547  ll
+  548  mv 2020-04-10-jekyll.md 2020-04-18-jekyll.md
+  549  vi 2020-04-18-jekyll.md
+  550  ll
+  551  vi 2020-04-18-tee.md
+  552  vi 2020-04-18-windows.md 
+  553  ll
+  554  vi 2020-04-18-windows.md 
+  555  cd ..
+  556  ll
+  557  git status
+  558  git add _posts/2020-04-18-git.md _posts/2020-04-18-jekyll.md
+  559   _posts/2020-04-18-salt.md
+  560   _posts/2020-04-18-tee.md
+  561   ll
+  562  ll
+  563  git add _posts/2020-04-18-git.md _posts/2020-04-18-jekyll.md
+  564  git status
+  565  git add _posts/2020-04-18-salt.md
+  566  git add _posts/2020-04-18-tee.md
+  567  git add _posts/2020-04-18-windows.md
+  568  git status
+  569  git commit -a -m "update post"
+  570  git push
+  571  ll
+  572  cd _posts/
+  573  ll
+  574  vi 2020-04-18-jekyll.md 
+  575  pwd
+  576  cd ..
+  577  ll
+  578  cd ..
+  579  cd blog/
+  580  ll
+  581  cd _posts/
+  582  ll
+  583  vi 2020-04-18-jekyll.md 
+  584  ll
+  585  vi 2020-04-18-jekyll.md 
+  586  cd ..
+  587  ll
+  588  cd ../trevorqhl.github.io/
+  589  ll
+  590  history
+  591  history | grep exec
+  592  bundle exec jekyll serve
+  593  ll
+  594  cd
+  595  ll
+  596  ll bin/
+  597  ll
+  598  sudo su -
+  599  ll
+  600  cd github/
+  601  ll
+  602  cd trevorqhl.github.io/
+  603  ll
+  604  vi _posts/2020-04-18-jekyll.md 
+  605  ll
+  606  histroy
+  607  history
+  608  git commit -a -m "update post"
+  609  git push
+  610  git status
+  611  sudo su -
+  612  ll
+  613  cd github/
+  614  ll
+  615  cd trevorqhl.github.io/
+  616  ll
+  617  vi _config.yml 
+  618  ll
+  619  git status
+  620  ll
+  621  vi README.md 
+  622  ll
+  623  vi about.md 
+  624  cd images/
+  625  ll
+  626  mv 72d1f12edf758d24f5b6db73bac4f297-linux-logo-by-vexels.png  linux.png
+  627  ll
+  628  cd ..
+  629  ll
+  630  vi about.md 
+  631  ll  images/
+  632  vi about.md 
+  633  git status
+  634  git add images/linux.png 
+  635  history
+  636  git commit -a -m "update post"
+  637  git push
+  638  git status
+  639  ll
+  640  vi about.md 
+  641  git commit -a -m "update post"
+  642  git push
+  643  vi about.md 
+  644  git commit -a -m "update post"
+  645  git push
+  646  vi about.md 
+  647  git commit -a -m "update post"
+  648  git push
+  649  vi about.md 
+  650  git commit -a -m "update post"
+  651  git push
+  652  ll images/
+  653  vi about.md 
+  654  git commit -a -m "update post"
+  655  git push
+  656  ll
+  657  cd ..
+  658  ll
+  659  git clone https://github.com/wowthemesnet/jekyll-theme-memoirs.git
+  660  ll
+  661  cd jekyll-theme-memoirs/
+  662  ll
+  663  cd ..
+  664  ll
+  665  cd blog/
+  666  ll
+  667  cd ..
+  668  ll
+  669  rm -rf blog/
+  670  ll
+  671  ll python/
+  672  vi python/README.md 
+  673  rm -rf python/
+  674  ll
+  675  cd jekyll-theme-memoirs/
+  676  ll
+  677  gem install bundler
+  678  ll
+  679  bundle install
+  680  ll
+  681  sudo su -
+  682  ll
+  683  bundle install
+  684  mkdir
+  685  make
+  686  bundle install
+  687  ll
+  688  ls -artl
+  689  bundle exec jekyll serve --watch
+  690  ll
+  691  ls -artl
+  692  ll .git
+  693  ll
+  694  find | grep noko
+  695  cd ..
+  696  find | grep noko
+  697  cd ..
+  698  find | grep noko
+  699  cd -
+  700  cd jekyll-theme-memoirs/
+  701  ll
+  702  bundle exec jekyll serve --watch
+  703  bundle install
+  704  bundle exec jekyll serve --watch
+  705  cd ..
+  706  history | grep clone
+  707  git clone https://github.com/zxixia/jekyll-xixia.git
+  708  ll
+  709  cd jekyll-xixia/
+  710  ll
+  711  history | grep build
+  712  history | grep blun
+  713  history | grep exec
+  714  bundle exec jekyll serve
+  715  cd ../trevorqhl.github.io/
+  716  find
+  717  history
+  718  bundle exec jekyll serve
+  719  cd ../jekyll-xixia/
+  720  bundle exec jekyll serve
+  721  ll
+  722  cd ../trevorqhl.github.io/
+  723  ll
+  724  cd -
+  725  ll
+  726  bundle exec jekyll serve
+  727  bundle exec jekyll build
+  728  bundle install
+  729  history
+  730  bundle install
+  731  ll
+  732  cd ../trevorqhl.github.io/
+  733  ll
+  734  vi Gemfile
+  735  cd ../jekyll-xixia/
+  736  ll
+  737  find | grep Gem
+  738  bundle exec jekyll build
+  739  bundle exec jekyll serve
+  740  find | grep Gem
+  741  bundle init
+  742  ll
+  743  bundle exec jekyll serve
+  744  bundle add jekyll
+  745  history | grep serve
+  746  bundle exec jekyll serve
+  747  ll
+  748  vi _config.yml 
+  749  bundle exec jekyll serve
+  750  vi _config.yml 
+  751  grep plugin *
+  752  vi _config.yml 
+  753  bundle exec jekyll serve
+  754  vi _config.yml 
+  755  bundle exec jekyll serve
+  756  vi _config.yml 
+  757  bundle exec jekyll serve
+  758  vi Gemfile
+  759  bundle exec jekyll serve
+  760  vi _config.yml 
+  761  bundle exec jekyll serve
+  762  vi _config.yml 
+  763  bundle exec jekyll serve
+  764  cd ..
+  765  ll
+  766  mv jekyll-theme-memoirs develop
+  767  ll
+  768  cd develop/
+  769  bundle exec jekyll serve
+  770  ll
+  771  vi _config.yml 
+  772  pwd
+  773  ll
+  774  grep xia *
+  775  ll
+  776  pwd
+  777  cd ..
+  778  ll
+  779  history
+  780  ll
+  781  mv develop jekyll-theme-memoirs
+  782  ll
+  783  mv jekyll-xixia develop
+  784  cd develop/
+  785  ll
+  786  vi _config.yml 
+  787  history
+  788  bundle exec jekyll serve
+  789  ll
+  790  ll assets/
+  791  grep xiaxia *
+  792  grep xixia *
+  793  grep -r xixia *
+  794  ll
+  795  bundle exec jekyll serve
+  796  grep -r canvas_bg.jpg *
+  797  vi _sass/xixia/theme.scss
+  798  cd assets/images/
+  799  ll
+  800  cp ../../../trevorqhl.github.io/images/* .
+  801  ll
+  802  cd ..
+  803  ll
+  804  pwd
+  805  ll
+  806  bundle exec jekyll serve
+  807  ll
+  808  vi README.md 
+  809  bundle exec jekyll serve
+  810  ll
+  811  about *
+  812  grep about *
+  813  ll
+  814  vi index.html 
+  815  vi _config.yml 
+  816  vi index.html 
+  817  vi about.1 
+  818  vi about.md 
+  819  bundle exec jekyll serve
+  820  ll
+  821  vi index.html 
+  822  bundle exec jekyll serve
+  823  ll
+  824  cd _layouts/
+  825  ll
+  826  vi page.html 
+  827  cd ..
+  828  bundle exec jekyll serve
+  829  ll
+  830  cd ..
+  831  ll
+  832  mv trevorqhl.github.io bk_blog
+  833  ll
+  834  mv develop trevorqhl.github.io
+  835  ll
+  836  cd trevorqhl.github.io/
+  837  ll
+  838  ls -artl
+  839  ll
+  840  find -type f | grep git
+  841  rm -rf .git
+  842  ll
+  843  git status
+  844  git init
+  845  git add .
+  846  git status
+  847  cat .gitignore 
+  848  ll
+  849  histroy
+  850  history
+  851  git commit -a -m "Initial commit"
+  852  git remote add origin https://github.com/trevorqhl/trevorqhl.github.io.git
+  853  git push -u origin master
+  854  git remote -v
+  855  git remote set-url origin git@github.com:trevorqhl/trevorqhl.github.io.git
+  856  git push
+  857  git push -u origin master
+  858  exit
+  859  grep plugin *
+  860  vi _config.yml 
+  861  ll
+  862  cd ..
+  863  ll
+  864  cd trevorqhl.github.io/
+  865  ll
+  866  cd ../develop/
+  867  ll
+  868  cd _posts/
+  869  ll
+  870  cp ../../trevorqhl.github.io/_posts/* .
+  871  ll
+  872  pwd
+  873  ll
+  874  cd
+  875  ll
+  876  cd github/
+  877  ll
+  878  cd develop/
+  879  ll
+  880  cd _posts/
+  881  ll
+  882  cp ../../trevorqhl.github.io/_posts/* .
+  883  ll'
+  884  ll
+  885  vi 2020-04-18-git.md
+  886  vi 2020-04-18-salt.md.md
+  887  vi 2020-04-18-salt.md
+  888  vi 2020-04-18-git.md 
+  889  cp ../../trevorqhl.github.io/_posts/2020-04-18-git.md .
+  890  vi 2020-04-18-git.md 
+  891  vi 2020-04-18-ssh_keys.md
+  892  vi 2020-04-18-tee.md
+  893  ll
+  894  vi 2020-04-18-windows.md
+  895  vi 2020-04-18-jekyll.md
+  896  cd ..
+  897  ll
+  898  vi about.html 
+  899  cp ../trevorqhl.github.io/about.md .
+  900  ll
+  901  mv about.html  about.1
+  902  cd ../trevorqhl.github.io/
+  903  ll
+  904  grep minima *
+  905  cd ../develop/
+  906  ll
+  907  vi index.html 
+  908  ll
+  909  ll ../trevorqhl.github.io/
+  910  ll
+  911  cd _includes/
+  912  ll
+  913  vi header.html 
+  914  ll
+  915  cd ..
+  916  ll
+  917  vi about.md 
+  918  ll
+  919  grep post *
+  920  grep -r post *
+  921  grep layout *
+  922  grep -r layout *
+  923  ll
+  924  cd _layouts/
+  925  ll
+  926  cat default.html
+  927  cp default.html page.html
+  928  ll
+  929  vi page.html 
+  930  vi post.html 
+  931  cp ../../jekyll-theme-memoirs/_layouts/page.html .
+  932  ll
+  933  vi page.html 
+  934  vi default.html 
+  935  vi page.html 
+  936  rm page.html 
+  937  cp default.html  page.html
+  938  vi page.html 
+  939  ll
+  940  vi post.html 
+  941  cd ..
+  942  ll
+  943  cd _sass/
+  944  ll
+  945  vi xixia.scss 
+  946  vi xixia/theme.scss 
+  947  vi xixia/syntax.scss 
+  948  vi xixia/theme.scss 
+  949  grep col-md-9 *
+  950  grep -r col-md-9 *
+  951  ll
+  952  cd ..
+  953  grep -r col-md-9 *
+  954  cd -
+  955  grep -r col-md-9 *
+  956  ll
+  957  cd ..
+  958  ll
+  959  grep xixia.gig *
+  960  grep -r xixia.gig *
+  961  grep -r xixia.gif *
+  962  vi _includes/sidebar.html
+  963  sudo su -
+  964  ll
+  965  cd assets/images/
+  966  ll
+  967  convert blog.jpg -resize 150 blog1.jpg
+  968  ll
+  969  mv blog.jpg blog.jpg.orig
+  970  mv blog1.jpg  blog.jpg
+  971  ll
+  972  cd ..
+  973  ll
+  974  cd ..
+  975  ll
+  976  grep -r xixia.gif *
+  977  grep -r blog.jpg *
+  978  vi _includes/sidebar.html
+  979  grep Welcome *
+  980  ll
+  981  vi _config.yml 
+  982  vi _includes/sidebar.html
+  983  vi _includes/links-list.html 
+  984  vi _config.yml 
+  985  grep -r xixia.info *
+  986  vi _data/links.yml
+  987  vi _includes/links-list.html 
+  988  history
+  989  vi _data/links.yml
+  990  vi _includes/links-list.html
+  991  vi _includes/sidebar.html
+  992  cd ../trevorqhl.github.io/
+  993  cat .gitignore 
+  994  cd ../bk_blog/
+  995  cat .gitignore 
+  996  ll
+  997  cd _posts/
+  998  ll
+  999  vi *ssh*
+ 1000  exit
+ 1001  ll
+ 1002  history
+ 1003  ll
+ 1004  cd 
+ 1005  ll
+ 1006  cd github/
+ 1007  ll
+ 1008  git clone https://github.com/luoyan35714/LessOrMore.git
+ 1009  ll
+ 1010  cd LessOrMore/
+ 1011  ll
+ 1012  vi _config.yml 
+ 1013  jekyll server
+ 1014  ll
+ 1015  ls -artl
+ 1016  vi .gitignore 
+ 1017  history | grep exec
+ 1018  bundle exec jekyll build
+ 1019  bundle exec jekyll serve
+ 1020   jekyll serve
+ 1021   jekyll server
+ 1022   jekyll serve
+ 1023  jekyll serve
+ 1024  bundle exec jekyll serve
+ 1025  history | grep bundle
+ 1026  history > 123
+ 1027  vi 123
+ 1028  bundle init
+ 1029  vi Gemfile 
+ 1030  bundle exec jekyll serve
+ 1031  bundle add jekyll
+ 1032  bundle exec jekyll serve
+ 1033  ll
+ 1034  ls -artl
+ 1035  rm 123 
+ 1036  ll
+ 1037  jekyll server
+ 1038  history | grep jekyll-paginate
+ 1039  history | grep paginate
+ 1040  bundle exec jekyll serve
+ 1041  jekyll serve
+ 1042  history > 123
+ 1043  vi 123
+ 1044  jekyll serve
+ 1045  vi Gemfile
+ 1046  jekyll serve
+ 1047  ll
+ 1048  find
+ 1049  ll
+ 1050  rm 123
+ 1051  ll
+ 1052  jekyll serve
+ 1053  ll
+ 1054  ll images/
+ 1055  jekyll serve
+ 1056  ll
+ 1057  vi _config.yml 
+ 1058  jekyll serve
+ 1059  ll
+ 1060  git branch
+ 1061  git remote -v
+ 1062  ll
+ 1063  cd ..
+ 1064  ll
+ 1065  rm -rf jekyll-theme-memoirs 
+ 1066  ll
+ 1067  git clone git@github.com:trevorqhl/blog1.git
+ 1068  git clone git@github.com:trevorqhl/blog2.git
+ 1069  ll
+ 1070  cd blog1/
+ 1071  ll
+ 1072  jekyll server
+ 1073  ll
+ 1074  vi _config.yml 
+ 1075  jekyll server
+ 1076  ll
+ 1077  cd _posts/
+ 1078  ll
+ 1079  vi 2020-04-18-git.md 
+ 1080  cd ..
+ 1081  jekyll server
+ 1082  ll
+ 1083  vi _config.yml 
+ 1084  jekyll server
+ 1085  vi _config.yml 
+ 1086  jekyll server
+ 1087  git push
+ 1088  cd ../blog2
+ 1089  jekyll server
+ 1090  grep canvas_bg.jpg *
+ 1091  grep -r canvas_bg.jpg *
+ 1092  vi _sass/xixia/theme.scss
+ 1093  vi _sass/xixia/theme.scss 
+ 1094  jekyll server
+ 1095  vi _sass/xixia/theme.scss 
+ 1096  jekyll server
+ 1097  ll
+ 1098  git status
+ 1099  git .gitignore
+ 1100  vi  .gitignore
+ 1101  git status
+ 1102  git commit -a -m "update blog"
+ 1103  git push
+ 1104  ll
+ 1105  cd ..
+ 1106  ll
+ 1107  cd blog3/
+ 1108  ll
+ 1109  jekyll server
+ 1110  ll
+ 1111  vi _config.yml 
+ 1112  history
+ 1113  ll
+ 1114  cat Gemfile
+ 1115  vi README.md 
+ 1116  history > 123
